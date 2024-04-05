@@ -45,7 +45,7 @@ class Restaurant extends ChangeNotifier{
       Addons(name: "Extra parmesan", price: 0.50)
     ],
     ),
-         Food(name: "Ceaser Salad", 
+     Food(name: "Ceaser Salad", 
     description: "Crisp romaine",
     imagePath: 'lib/images/salads',
     price: 0.99,
@@ -159,13 +159,13 @@ class Restaurant extends ChangeNotifier{
 
   //Getters
   List<Food> get menu => _menu;
-  //Operations
+  //OPERATIONS
   //add to cart
   //remove to cart
   //get total price of cart
   //get total number of items in a cart
   //clear cart
-  //Helpers
+  //HELPERS
   //generate a reciept
   //formar double value into money
   //format list of addons into string summary
